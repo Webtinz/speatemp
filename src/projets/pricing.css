@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.dashboard {
+    font-family:"Coda", system-ui; 
+    display: flex;
+    min-height: 100vh; /* Pour que le dashboard occupe toute la hauteur de la fenêtre */
+    overflow-x: hidden;
+}
+
+.harelle {
+    /* background-color: #ffffff;
+    border: 1px solid #848484; */
+    width: 284.81px;
+    height: auto;
+}
+
+.momo {
+    /* background-color: #1A5D1A2B; */
+    flex-grow: 1; /* Permet à .momo de prendre l'espace restant */
+    padding: 20px; /* Un peu de padding pour aérer le contenu */
+}
+
+@media (max-width: 768px) {
+    .dashboard {
+        flex-direction: column; /* Colonne en mobile pour empiler les sections */
+    }
+
+    .harelle, .momo {
+        width: 100%; /* Chaque section prend toute la largeur en mobile */
+    }
+}
+
+.fige {
+    background: linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%);
+    -webkit-background-clip: text; /* Nécessaire pour certains navigateurs */
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Masquer la couleur de base pour afficher le dégradé */
+    font-weight: bold;
+}
+
+.glo{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1A5D1A;
+    color: #ffffff;
+    border: 0px;
+}
+
+.contrat{
+    width: 51.4px;
+    height: 51px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.cloche{
+    color: #3D42DF;
+    font-size:20px
+}
+
+.toni{
+    font-size: 18px;
+}
+
+.glin{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.glory{
+    font-weight:700;
+}
+
+
+
+
+/* Center the container and align columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Default column styles */
+.claudia {
+    flex: 1 1 calc(33.33% - 15px);
+    max-width: calc(33.33% - 15px);
+    background-color: linear-gradient(135deg, #e3e9e6, #fcfdfd)!important;
+    border: 1px solid #FFE767;
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Style for the active state */
+.claudia.active {
+    background-color: #1A5D1A !important;
+    color: #ffffff !important;
+    border-color: #1A5D1A;
+}
+
+/* Adjust text color within the active column */
+.claudia.active .trit,
+.claudia.active .kut,
+.claudia.active .kurt,
+.claudia.active .kurtl,
+.claudia.active .clin {
+    color: #ffffff !important;
+}
+
+.claudia.active .kind {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.claudia.active .vict {
+    color: #ffffff !important;
+}
+
+.claudia.active hr {
+    border-color: #ffffff !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .claudia {
+        flex: 1 1 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 32% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .claudia {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+/* Other styles */
+.vict {
+    font-size: 22px;
+    color: #1A5D1A;
+}
+
+.trit {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.kut {
+    font-size: 14px;
+}
+
+.kurt {
+    font-size: 16px;
+}
+
+.clin {
+    font-weight: 800;
+    font-size: 41px;
+    color: #4880FF;
+}
+
+.kurtl {
+    color: #2121214D;
+}
+
+.kind {
+    padding: 8px 20px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #1A5D1A;
+    color: #1A5D1A;
+    transition: all 0.3s ease;
+}
+
+* Toggle button styling */
+.toggle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    border: 1px solid #1A5D1A;
+    background-color: transparent;
+    color: #1A5D1A;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.toggle-btn.active {
+    background-color: #1A5D1A;
+    color: #ffffff;
+}
+
+.trini {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    height: 100vh;           /* Donne une hauteur de 100% de la vue pour centrer verticalement */
+  }
+
+  
+  /* .icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #question-icon {
+    font-size: 40px;
+    cursor: pointer;
+  } */
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 200px;
+  }
+  .popup{
+    position: absolute;
+    background-Color:#fff;
+    padding: 10px 20px;
+    border-Radius:5px;
+    border: 1x solid #1A5D1A;
+    box-Shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-Index: 10;
+    border: 1px solid;
+  }
+  .icon-container:hover .tooltip {
+    display: block;
+  }
+  
+  .train{
+    font-size: 11px !important;
+    font-weight: 800 !important;
+  }

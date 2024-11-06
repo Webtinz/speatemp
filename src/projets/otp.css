@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.login{
+    background: linear-gradient(135deg, #0d3f20, #fcfdfd);
+    min-height: 100vh; /* Assurez-vous que la section prend au moins la hauteur de l'écran */
+    display: flex;
+    font-family:"Coda", system-ui; 
+    overflow-x: hidden;
+   
+}
+
+.police{
+    
+    color: linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%) !important;
+    display: flex;
+    justify-content: start;
+
+}
+.police .fa-long-arrow-left {
+    background: linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 50px;
+  }
+
+
+/* Le formulaire */
+.formulaire {
+    border: 2px solid transparent;
+    border-radius: 8px; /* Ajoutez un border-radius si vous souhaitez des coins arrondis */
+    background-image: linear-gradient(180deg, #f0f5f0 0%, #e0ded0 100%), 
+                     linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin: 10px 20px;
+    padding: 80px;
+}
+
+  .you {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 100%;
+    /* max-width: 300px; */
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .you {
+        padding: 10px 20px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .you {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+
+.colombe{
+    line-height: 33px;
+    font-size: 22px;
+}
+  

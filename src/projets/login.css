@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.login{
+    background: linear-gradient(135deg, #0d3f20, #fcfdfd);
+    min-height: 100vh; /* Assurez-vous que la section prend au moins la hauteur de l'écran */
+    display: flex;
+    font-family:"Coda", system-ui; 
+    overflow-x: hidden;
+   
+}
+
+.police{
+    
+    color: linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%) !important;
+    display: flex;
+    justify-content: start;
+
+}
+.police .fa-long-arrow-left {
+    background: linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 50px;
+  }
+
+
+/* .formulaire{
+    background: #90949045;
+    border: 2.5px solid linear-gradient(180deg, #098609 0%, #F4DA4B 100%) !important;
+    margin: 10px 20px;
+    padding: 80px;
+    border-radius: 8px;
+} */
+.formulaire {
+    border: 2px solid transparent;
+    border-radius: 8px; /* Ajoutez un border-radius si vous souhaitez des coins arrondis */
+    background-image: linear-gradient(180deg, #f0f5f0 0%, #e0ded0 100%), 
+                     linear-gradient(270deg, #1A5D1A 0%, #FFE767 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin: 10px 20px;
+    padding: 80px;
+}
+
+
+.form-control{
+    background-color: transparent !important;
+    border: 1.5px solid #000 !important;
+    padding: 8px !important;
+}
+
+.point{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.killian{
+    position: relative;
+}
+
+select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    appearance: none; /* Supprime l'apparence native du select */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 8px auto;
+    padding-right: 30px;
+  }
+  
+  select option {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Style pour l'effet hover sur les options */
+  select option:hover {
+    background-color: #f5f5f5;
+  }
+
+  .plus{
+    text-decoration: none;
+    color: #1A5D1A;
+  }
+
+  .you {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 100%;
+    /* max-width: 300px; */
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .you {
+        padding: 10px 20px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .you {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+  .micro{
+    background-color: transparent;
+    color: #000;
+    padding: 8px;
+    border: 1.5px solid #000;
+    border-radius:30px ;
+  }
+
+  .congrat{
+    width: 100%;
+    height: auto;
+    /* max-Width: 500px; */
+    object-Fit: cover;
+    /* border-Radius: 8px; */
+
+    padding:0 !important;
+  }
+
+
+  .micro {
+    background-color: transparent;
+    color: #000;
+    padding: 8px 24px;
+    border: 1.5px solid #000;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* space between icon and text */
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.microbe {
+    display: flex;
+    justify-content: center;
+}
+
+.contrat {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .micro {
+        padding: 8px 20px;
+        font-size: 14px;
+        gap: 8px;
+    }
+
+    .contrat {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .micro {
+        padding: 6px 16px;
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .contrat {
+        width: 16px;
+        height: 16px;
+    }
+}

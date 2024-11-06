@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.payement{
+    font-family:"Coda", system-ui; 
+    display: flex;
+    min-height: 100vh; /* Pour que le dashboard occupe toute la hauteur de la fenêtre */
+    overflow-x: hidden;
+}
+
+.harelle {
+    background-color: #ffffff;
+    border: 1px solid #848484;
+    width: 284.81px;
+    height: auto;
+}
+
+.momo {
+    background-color: #1A5D1A2B;
+    flex-grow: 1; /* Permet à .momo de prendre l'espace restant */
+    padding: 20px; /* Un peu de padding pour aérer le contenu */
+}
+
+@media (max-width: 768px) {
+    .dashboard {
+        flex-direction: column; /* Colonne en mobile pour empiler les sections */
+    }
+
+    .harelle, .momo {
+        width: 100%; /* Chaque section prend toute la largeur en mobile */
+    }
+}
+
+.com{
+    padding: 10px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.microbe {
+    background-color: #ffffff;
+    width: 90%; /* Changed to a percentage for responsiveness */
+    height: auto; /* Changed to auto for flexible height */
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.53); /* Changed for better readability */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added a shadow effect */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Added padding for better spacing */
+}
+
